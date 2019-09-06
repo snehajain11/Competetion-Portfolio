@@ -1,0 +1,24 @@
+#header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/header.jpg);
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+/* puts text on the image */
+.hero-text-box-about{
+  position: absolute;
+  width:1140px;
+  top:35%; /*text in center */
+  left: 82%; /*text in center */
+  transform: translate(-50%,-50%);
+}
+.hero-text-box-about h1{
+  color: #fff;
+}
+.align-btn-about{
+  margin-left: -22%;
+  margin-top: 1%;
+}
+.align-btn-about p{
+  color: #fff;
+}

@@ -1,0 +1,42 @@
+#header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/header.jpg);
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+/* puts text on the image */
+.hero-text-box-portfolio{
+  position: absolute;
+  width:1140px;
+  top:35%; /*text in center */
+  left: 79%; /*text in center */
+  transform: translate(-50%,-50%);
+}
+.hero-text-box-portfolio h1{
+  color: #fff;
+}
+.align-btn-portfolio{
+  margin-left: -16%;
+  margin-top: 1%;
+}
+.align-btn-portfolio p{
+  color: #fff;
+}
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+.color-change{
+  background-color: #f6f6f6 ;
+}
+.color-change2{
+  background-color: #e67e22;
+  color: #fff;
+}
+.sign-up h1{
+  font-size: 130%;
+  color: #000;
+}
+.sign-up p{
+  font-size: 80%;
+  color: #000;
+}
